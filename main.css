@@ -1,0 +1,109 @@
+body{
+    margin: 0 auto;
+}
+
+.border{
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 500px;
+    width: 400px;
+    border-style:inherit;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(43, 102, 102);
+}
+.big-title{
+    color: black;
+    padding: 8px 16px;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+}
+.small-title{
+    color: black;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.valute{
+    width: 500px;
+    margin-left: 0px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    font-weight: 300px;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+}
+.img{
+    width: 20px;
+    height: 20px;
+}
+.input{
+    margin: 0 auto;
+    width: 140px;
+    height: 2px;
+    margin-left: 0;
+    padding: 10px;
+    border-color: black;
+}
+
+.page-header{
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+.block{
+    border-radius: 2px;
+    border: 1px solid black;
+}
+ 
+.column0{
+    margin-top: 30px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    padding-left: 35px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.column2{
+    padding-left: 35px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 16px;
+}
+.btn{
+    padding: auto;
+    height: 40px;
+    color:black;
+    border-style:groove;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px rgb(43, 102, 102);
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
